@@ -217,24 +217,35 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 .container{
 
-    width: 100%;
+    width: 100px;
 }
 nav{
     float: left;
 }
-.auth-image{
-    width: 50%;
+#masthead{
+    width: 90%;
 }
+.auth-image{
+    width: 100px;
+}
+#main-container{
+    width: 100%;
+}
+
 }
 @media screen and (max-width: 768px) {
 .container{
+    margin-left: 30px;
 
+    width: 740px;
+}
+#main-container{
     width: 50%;
 }
 }
 @media screen and (max-width: 980px) {
 .container{
 
-    width: 30%;
+    width: 940px;
 }
 }
